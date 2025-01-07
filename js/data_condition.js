@@ -6,7 +6,7 @@ data_condition = [
         description: "You can't see",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
+            "TEST You automatically fail any ability check which requires sight.",
             "You have disadvantage on attack rolls.",
             "Attack rolls against you have advantage."
         ]
