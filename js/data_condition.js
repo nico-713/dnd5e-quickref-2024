@@ -39,7 +39,7 @@ data_condition = [
         description: "Exhaustion is measured in six levels",
         reference: "PHB, pg. 366.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>D20-Test -2 / Speed -5</td></tr><tr><td>2</td><td></td><td></td><td>D20-Test -4 / Speed -10</td></tr><tr><td>3</td><td></td><td></td><td>D20-Test -6 / Speed -15</td></tr><tr><td>4</td><td></td><td></td><td>D20-Test -8 / Speed -20</td></tr><tr><td>5</td><td></td><td></td><td>D20-Test -10 / Speed -25</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
+            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>D20 Tests</th><th></th><th></th><th>Speed</th></tr><tr><td>1</td><td></td><td></td><td>-2</td><td></td><td></td><td>-5 ft.</td></tr><tr><td>2</td><td></td><td></td><td>-4</td><td></td><td></td><td>-10 ft.</td></tr><tr><td>3</td><td></td><td></td><td>-6</td><td></td><td></td><td>-15 ft.</td></tr><tr><td>4</td><td></td><td></td><td>-8</td><td></td><td></td><td>-20 ft.</td></tr><tr><td>5</td><td></td><td></td><td>-10</td><td></td><td></td><td>-25 ft.</td></tr><tr><td>6</td><td></td><td></td><td>Death</td><td></td><td></td><td>Death</td></tr></table>",
             "This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
             "Finishing a long rest reduces your exhaustion level by 1. When your Exhaustion level reaches 0, the condition ends."
         ]
