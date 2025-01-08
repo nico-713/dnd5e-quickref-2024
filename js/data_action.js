@@ -130,38 +130,61 @@ data_action = [
     {
         title: "Hide",
         icon: "hood",
-        subtitle: "",
-        description: "Attempt to hide",
-        reference: "PHB, pg. 192.",
+        subtitle: "Try to conceal yourself",
+        description: "Try to conceal yourself",
+        reference: "PHB, pg. 368.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "You must succeed on a DC 15 Dexterity (Stealth) check while you're Heavily Obscured or behind at least Three-Quarters Cover and must be out of any enemy's line of sight.",
+            "If you can see a creature, you can discern whether it can see you.",
+            "On a successful check, you have the <i>Invisible</i> condition. Make note of your check's total, which is the DC for a creature to find you with a Wisdom (Perception) check.",
+            "The condition ends immediately after you make a sound louder than a whisper, an enemy finds you, you make an attack roll or you cast a spell with a Verbal Component."
+        ]
+    },
+    {
+        title: "Influence",
+        icon: "magnifying-glass",
+        subtitle: "Urge a monster to do something.",
+        description: "Urge a monster to do something.",
+        reference: "PHB, pg. 369.",
+        bullets: [
+            "Describe or roleplay how you're communication with the creature. Trying to deceive, intimidate, amuse or persuade?",
+            "Your DM determines if an ability check is necessary."
         ]
     },
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
+        subtitle: "Discern something, that isn't obvious.",
+        description: "Discern something, that isn't obvious.",
+        reference: "PHB, pg. 373.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "You make a Wisdom check to discern something that isn't obvious.",
+            "E.g. Creature's state of mind = Insight, Creature's ailment or cause of death = Medicine, Concealed creature or object = Perception, Tracks or Food = Survival",
+            "Your DM may request checks using other Abilities like Intellect."
+        ]
+    },
+    {
+        title: "Study",
+        icon: "magnifying-glass",
+        subtitle: "Study your memory, a book or a clue.",
+        description: "Study your memory, a book or a clue.",
+        reference: "PHB, pg. 375.",
+        bullets: [
+            "You make an intelligence check to study a source of knowledge and call to mind an important piece of information about it."
         ]
     },
     {
         title: "Ready",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
+        subtitle: "Wait for a particular circumstance before you act.",
         description: "Choose a trigger and a response reaction",
-        reference: "PHB, pg. 193.",
+        reference: "PHB, pg. 372.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "You take the <i>Ready</i> action on your turn, which lets you act by taking a Reaction before the start of your next turn.",
+            "Decide, what perceivable circumstance will trigger your Reaction.",
+            "Choose the action you will take in response to that trigger, or choose to move up to your Speed in response to it.",
+            "When the trigger occurs, you can either take your Reaction right after the trigger finishes or ignore the trigger.",
+            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration."
         ]
     },
     {
@@ -177,13 +200,14 @@ data_action = [
     {
         title: "Stabilize a creature",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
+        subtitle: "Stabilize a dying creature by administering first aid.",
         description: "Stop a dying creature from needing to make death saving throws",
-        reference: "PHB, pg. 197.",
+        reference: "PHB, pg. 29.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Make a Wisdom (Medicine) check with DC 10.",
+            "On a success, the creature is stable and no longer needs to make death saving throws even though it has 0 Hit Points.",
+            "if it takes damage, it stops being stable and has to make death saving throws again.",
+            "A stable creature regains 1 hit point after 1d4 hours if it isn't healed."
         ]
     },
     {
@@ -191,7 +215,7 @@ data_action = [
         icon: "juggler",
         subtitle: "Any action not on this list",
         description: "Perform any action you can imagine",
-        reference: "PHB, pg. 193.",
+        reference: "PHB, pg. 15.",
         bullets: [
             "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
         ]
