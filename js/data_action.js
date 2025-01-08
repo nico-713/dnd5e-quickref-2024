@@ -176,7 +176,7 @@ data_action = [
     {
         title: "Ready",
         icon: "stopwatch",
-        subtitle: "Wait for a particular circumstance before you act.",
+        subtitle: "Wait for a particular circumstance.",
         description: "Choose a trigger and a response reaction",
         reference: "PHB, pg. 372.",
         bullets: [
@@ -200,7 +200,7 @@ data_action = [
     {
         title: "Stabilize a creature",
         icon: "first-aid",
-        subtitle: "Stabilize a dying creature by administering first aid.",
+        subtitle: "Stabilize a dying creature.",
         description: "Stop a dying creature from needing to make death saving throws",
         reference: "PHB, pg. 29.",
         bullets: [
