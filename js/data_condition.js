@@ -100,7 +100,7 @@ data_condition = [
         bullets: [
             "You have the Incapacitated condition.",
             "Your speed is 0 and can't increase.",
-            "Attack rolls against you have Disadvantage and any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
+            "Attack rolls against you have Advantage and any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
             "You automatically fail Strength and Dexterity saving throws."
         ]
     },
