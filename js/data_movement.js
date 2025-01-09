@@ -123,12 +123,12 @@ data_movement = [
     },
     {
         title: "Travel Pace",
-        icon: "grab",
+        icon: "run",
         subtitle: "Traveling outside of combat",
         description: "Travel Pace for Fast, Normal and Slow Travel outside of combat.",
         reference: "PHB, pg. XXX",
         bullets: [
-            "<table><tr><th>Pace</th><th></th><th></th><th style='text-align:left'>Hour</th><th></th><th></th><th>Day</th></tr><tr><td>Fast</td><td></td><td></td><td>4 miles</td><td></td><td></td><td>30 miles</td></tr><tr><td>Normal</td><td></td><td></td><td>3 miles</td><td></td><td></td><td>24 miles</td></tr><tr><td>Slow</td><td></td><td></td><td>2 miles</td><td></td><td></td><td>18 miles</td></tr></table>",
+            "<table><tr><th style='text-align:left'>Pace</th><th></th><th></th><th>Minute</th><th></th><th></th><th>Hour</th><th></th><th></th><th>Day</th></tr><tr><td>Fast</td><td></td><td></td><td>400 feet</td><td></td><td></td><td>4 miles</td><td></td><td></td><td>30 miles</td></tr><tr><td>Normal</td><td></td><td></td><td>300 feet</td><td></td><td></td><td>3 miles</td><td></td><td></td><td>24 miles</td></tr><tr><td>Slow</td><td></td><td></td><td>200 feet</td><td></td><td></td><td>2 miles</td><td></td><td></td><td>18 miles</td></tr></table>",
             "<b>Fast Travel</b> imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.",
             "<b>Normal Travel</b> imposes Disadvantage on Dexterity (Stealth) checks.",
             "<b>Slow Travel</b> grants Advantage on Wisdom (Perception or Survival) checks.",
