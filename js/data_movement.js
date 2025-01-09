@@ -4,7 +4,7 @@ data_movement = [
         icon: "run",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        reference: "PHB, pg. 24-25, 374.",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
             "You can move through a nonhostile creature's space.",
@@ -18,7 +18,7 @@ data_movement = [
         icon: "crags",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft climbed",
-        reference: "PHB, pg. 182.",
+        reference: "PHB, pg. 363.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
         ]
@@ -28,7 +28,7 @@ data_movement = [
         icon: "at-sea",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft swum",
-        reference: "PHB, pg. 182.",
+        reference: "PHB, pg. 376.",
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult"
         ]
@@ -38,11 +38,11 @@ data_movement = [
         icon: "falling",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        reference: "PHB, pgs. 372.",
         bullets: [
-            "You can drop prone without using any of your speed",
+            "You can drop prone without using any of your speed.",
             "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Dropping prone adds the <i>Prone</i> condition."
         ]
     },
     {
@@ -50,7 +50,7 @@ data_movement = [
         icon: "crawl",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
+        reference: "PHB, pg. 364.",
         bullets: [
 
         ]
@@ -59,8 +59,8 @@ data_movement = [
         title: "Stand up",
         icon: "strong",
         subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        description: "Movement cost: half of your speed, rounded down.",
+        reference: "PHB, pg. 372.",
         bullets: [
             "You can't stand up if you don't have enough movement left or if your speed is 0"
         ]
@@ -70,8 +70,7 @@ data_movement = [
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
-        
-        reference: "PHB, pg. 182.",
+        reference: "PHB, pg. 368.",
         bullets: [
             "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
             "When you make a standing high jump, you can jump only half that distance.",
@@ -84,7 +83,7 @@ data_movement = [
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
-        reference: "PHB, pg. 182.",
+        reference: "PHB, pg. 370.",
         bullets: [
             "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
             "When you make a standing long jump, you can leap only half that distance",
@@ -105,7 +104,7 @@ data_movement = [
         title: "Difficult terrain",
         icon: "stone-pile",
         subtitle: "Cost modifier: +5ft per 5ft",
-        reference: "PHB, pg. 182.",
+        reference: "PHB, pg. 25, 366.",
         description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
         bullets: [
         ]
@@ -115,7 +114,7 @@ data_movement = [
         icon: "grab",
         subtitle: "Modifier: speed halved",
         description: "Drag or carry the grappled creature with you",
-        reference: "PHB, pg. 195.",
+        reference: "PHB, pg. 367.",
         bullets: [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
@@ -126,8 +125,9 @@ data_movement = [
         icon: "run",
         subtitle: "Traveling outside of combat",
         description: "Travel Pace for Fast, Normal and Slow Travel outside of combat.",
-        reference: "PHB, pg. XXX",
+        reference: "PHB, pg. 20",
         bullets: [
+            "Establish a marching order while you travel.",
             "<table><tr><th style='text-align:left'>Pace</th><th></th><th></th><th>Minute</th><th></th><th></th><th>Hour</th><th></th><th></th><th>Day</th></tr><tr><td>Fast</td><td></td><td></td><td>400 feet</td><td></td><td></td><td>4 miles</td><td></td><td></td><td>30 miles</td></tr><tr><td>Normal</td><td></td><td></td><td>300 feet</td><td></td><td></td><td>3 miles</td><td></td><td></td><td>24 miles</td></tr><tr><td>Slow</td><td></td><td></td><td>200 feet</td><td></td><td></td><td>2 miles</td><td></td><td></td><td>18 miles</td></tr></table>",
             "<b>Fast Travel</b> imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.",
             "<b>Normal Travel</b> imposes Disadvantage on Dexterity (Stealth) checks.",
