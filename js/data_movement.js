@@ -35,6 +35,18 @@ data_movement = [
         ]
     },
     {
+        title: "Flying",
+        icon: "angel-wings",
+        subtitle: "Cost: 5ft per 5ft",
+        description: "Movement cost: 5ft per 5ft flown",
+        reference: "PHB, pg. 367.",
+        bullets: [
+            "While you have a fly speed, you can stay aloft until you land, fall or die.",
+            "While flying, you fall if you have the <i>Incapacitated</i> or <i>Prone</i> condition or your fly speed is reduced to 0.",
+            "You can stay aloft in those circumstances if you can hover."
+        ]
+    },
+    {
         title: "Drop prone",
         icon: "falling",
         subtitle: "Cost: 0ft",
