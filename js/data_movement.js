@@ -120,5 +120,19 @@ data_movement = [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
         ]
+    },
+    {
+        title: "Travel Pace",
+        icon: "grab",
+        subtitle: "Traveling outside of combat",
+        description: "Travel Pace for Fast, Normal and Slow Travel outside of combat.",
+        reference: "PHB, pg. XXX",
+        bullets: [
+            "<table><tr><th>Pace</th><th></th><th></th><th style='text-align:left'>Hour</th><th></th><th></th><th>Day</th></tr><tr><td>Fast</td><td></td><td></td><td>4 miles</td><td></td><td></td><td>30 miles</td></tr><tr><td>Normal</td><td></td><td></td><td>3 miles</td><td></td><td></td><td>24 miles</td></tr><tr><td>Slow</td><td></td><td></td><td>2 miles</td><td></td><td></td><td>18 miles</td></tr></table>",
+            "<b>Fast Travel</b> imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.",
+            "<b>Normal Travel</b> imposes Disadvantage on Dexterity (Stealth) checks.",
+            "<b>Slow Travel</b> grants Advantage on Wisdom (Perception or Survival) checks.",
+            "Travelers in wagons, carriages or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel and don't choose a pace."
+        ]
     }
 ]
