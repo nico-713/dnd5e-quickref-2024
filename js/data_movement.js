@@ -7,30 +7,31 @@ data_movement = [
         reference: "PHB, pg. 24-25, 374.",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "You can move through the space of an ally, a creature that has the <i>Incapacitated</i> condition, a Tiny creature or a creature that is two sizes larger or smaller than you.",
+            "Another creature's space is difficult terrain for you unless that creature is Tiny or your ally.",
+            "You can't willingly end your move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the <i>Prone</i> condition, unless you are Tiny or are of a larger size than the other creature."
         ]
     },
     {
         title: "Climb",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "Cost: +5ft per 5ft",
+        description: "Movement cost: each foot of movement costs 1 extra foot",
         reference: "PHB, pg. 363.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Each foot of movement costs 1 extra foot of movement while climbing. If you have a climb speed, you ignore this extra cost.",
+            "May involve a Strength (Athletics) check if the climb is difficult."
         ]
     },
     {
         title: "Swim",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "Cost: +5ft per 5ft",
+        description: "Movement cost: each foot of movement costs 1 extra foot",
         reference: "PHB, pg. 376.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Each foot of movement costs 1 extra foot of movement while swimming. If you have a swim speed, you ignore this extra cost.",
+            "May involve a Strength (Athletics) check if you're swimming in rough waters."
         ]
     },
     {
@@ -38,7 +39,7 @@ data_movement = [
         icon: "falling",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 372.",
+        reference: "PHB, pgs. 25, 372.",
         bullets: [
             "You can drop prone without using any of your speed.",
             "To move while prone, you must crawl or use magic such as teleportation",
@@ -48,11 +49,11 @@ data_movement = [
     {
         title: "Crawl",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "Cost: +5ft per 5ft",
+        description: "Movement cost: each foot of movement costs 1 extra foot",
         reference: "PHB, pg. 364.",
         bullets: [
-
+            "Each foot of movement costs 1 extra foot of movement while crawling."
         ]
     },
     {
@@ -68,13 +69,13 @@ data_movement = [
     {
         title: "High jump",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
+        subtitle: "Cost: 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 368.",
         bullets: [
             "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
             "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
+            "You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus 1.5 times your height.",
             "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
         ]
     },
@@ -87,8 +88,8 @@ data_movement = [
         bullets: [
             "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
             "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "If you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check or have the <i>Prone</i> condition.",
+            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check."
         ]
     },
     {
@@ -107,17 +108,18 @@ data_movement = [
         reference: "PHB, pg. 25, 366.",
         description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
         bullets: [
+            "Every foot of movement costs 1 extra foot.",
+            "Difficult terrain isn't cumulative; either a space is difficult terrain or it isn't."
         ]
     },
     {
         title: "Grapple move",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
+        subtitle: "Cost: +5ft per 5ft",
         description: "Drag or carry the grappled creature with you",
         reference: "PHB, pg. 367.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "If you move while grappling another creature, every foot of movement costs 1 extra foot unless the grappled creature is Tiny or you are two or more sizes larger than it."
         ]
     },
     {
